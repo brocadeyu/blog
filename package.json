@@ -22,7 +22,6 @@
     "csstype": "^2.6.21",
     "esbuild": "^0.17.14",
     "estree-walker": "^2.0.2",
-    "fsevents": "^2.3.2",
     "function-bind": "^1.1.1",
     "has": "^1.0.3",
     "is-core-module": "^2.11.0",
@@ -45,6 +44,9 @@
     "vscode-textmate": "^8.0.0",
     "vue": "^3.2.47",
     "vue-demi": "^0.13.11"
+  },
+  "optionalDependencies": {
+    "fsevents": "^2.3.2"
   },
   "keywords": [],
   "author": ""
