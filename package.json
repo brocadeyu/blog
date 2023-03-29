@@ -1,5 +1,5 @@
 {
-  "name": "myVitePress",
+  "name": "myvitepress",
   "version": "1.0.0",
   "main": "index.js",
   "license": "MIT",
@@ -10,5 +10,42 @@
     "docs:dev": "vitepress dev docs",
     "docs:build": "vitepress build docs",
     "docs:preview": "vitepress preview docs"
-  }
+  },
+  "description": "",
+  "directories": {
+    "doc": "docs"
+  },
+  "dependencies": {
+    "algoliasearch": "^4.16.0",
+    "ansi-sequence-parser": "^1.1.0",
+    "body-scroll-lock": "^4.0.0-beta.0",
+    "csstype": "^2.6.21",
+    "esbuild": "^0.17.14",
+    "estree-walker": "^2.0.2",
+    "fsevents": "^2.3.2",
+    "function-bind": "^1.1.1",
+    "has": "^1.0.3",
+    "is-core-module": "^2.11.0",
+    "jsonc-parser": "^3.2.0",
+    "magic-string": "^0.25.9",
+    "nanoid": "^3.3.6",
+    "path-parse": "^1.0.7",
+    "picocolors": "^1.0.0",
+    "postcss": "^8.4.21",
+    "preact": "^10.13.2",
+    "resolve": "^1.22.1",
+    "rollup": "^3.20.2",
+    "shiki": "^0.14.1",
+    "source-map": "^0.6.1",
+    "source-map-js": "^1.0.2",
+    "sourcemap-codec": "^1.4.8",
+    "supports-preserve-symlinks-flag": "^1.0.0",
+    "vite": "^4.2.1",
+    "vscode-oniguruma": "^1.7.0",
+    "vscode-textmate": "^8.0.0",
+    "vue": "^3.2.47",
+    "vue-demi": "^0.13.11"
+  },
+  "keywords": [],
+  "author": ""
 }
