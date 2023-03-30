@@ -5,8 +5,12 @@ export default defineConfig({
   base:"/MyBlog/",
   title: "Brocadeyu's Blog",
   description: "Thoughts & Blogs",
+  head:[
+    ['link', { rel: 'icon', href: '/favicon.ico' }]
+  ],
   themeConfig: {
     // https://vitepress.dev/reference/default-theme-config
+    logo:'/logo.svg',
     nav: [
       { text: 'Home', link: '/' },
       { text: 'Examples', link: '/markdown-examples' }
