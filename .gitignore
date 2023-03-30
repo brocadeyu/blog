@@ -1,4 +1,4 @@
 /node_modules
+/docs/.vitepress/dist
 .idea
 .gitignore
-/docs/.vitepress/dist
