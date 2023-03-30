@@ -2,7 +2,7 @@ import { defineConfig } from 'vitepress'
 
 // https://vitepress.dev/reference/site-config
 export default defineConfig({
-  base:"/MyBlog/",
+  base:"/blog/",
   title: "Brocadeyu's Blog",
   description: "Thoughts & Blogs",
   head:[
