@@ -6,7 +6,7 @@ export default defineConfig({
   title: "Brocadeyu's Blog",
   description: "Thoughts & Blogs",
   head:[
-    ['link', { rel: 'icon', href: '/MyBlog/favicon.ico' }]
+    ['link', { rel: 'icon', href: '/blog/favicon.ico' }]
   ],
   themeConfig: {
     // https://vitepress.dev/reference/default-theme-config
