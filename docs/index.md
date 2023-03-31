@@ -3,16 +3,19 @@
 layout: home
 
 hero:
-  name: "Brocadeyu's Blog"
-  text: "Thoughts & Blogs"
-  tagline: My great project tagline
+  name: "Brocadeyu"
+  text: "———————"
+  tagline: tech otakus save the world
+  image:
+    src: /avatar.png
+    alt: avatar
   actions:
     - theme: brand
       text: Start
-      link: /markdown-examples
+      link: /test-markdown-examples
     - theme: alt
       text: API Examples
-      link: /api-examples
+      link: /test-api-examples
 
 features:
   - title: Feature A
