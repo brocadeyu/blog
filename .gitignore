@@ -2,3 +2,4 @@
 /docs/.vitepress/dist
 .idea
 .gitignore
+docs/.vitepress/cache/deps/_metadata.json
