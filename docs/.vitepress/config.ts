@@ -5,6 +5,7 @@ export default defineConfig({
   base: '/blog/',
   title: 'Brocadeyu',
   description: 'Thoughts & Blogs',
+  titleTemplate: 'Brocadeyu',
   head: [['link', { rel: 'icon', href: '/blog/favicon.ico' }]],
   markdown:{
     theme: 'material-theme-ocean',
