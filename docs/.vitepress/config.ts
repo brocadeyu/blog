@@ -13,7 +13,7 @@ export default defineConfig({
   },
   themeConfig: {
     // https://vitepress.dev/reference/default-theme-config
-    logo: '/avatar.svg',
+    logo: '/favicon.ico',
     outline:{
       label:'目录'
     },
