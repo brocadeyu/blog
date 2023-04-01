@@ -6,14 +6,14 @@ export default defineConfig({
   title: 'Brocadeyu',
   description: 'Thoughts & Blogs',
   titleTemplate: 'Brocadeyu',
-  head: [['link', { rel: 'icon', href: '/blog/favicon.ico' }]],
+  head: [['link', { rel: 'icon', href: '/blog/shark.svg' }]],
   markdown:{
     theme: 'material-theme-ocean',
     lineNumbers: true,
   },
   themeConfig: {
     // https://vitepress.dev/reference/default-theme-config
-    logo: '/favicon.ico',
+    logo: '/shark.svg',
     outline:{
       label:'目录'
     },
