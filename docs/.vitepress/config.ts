@@ -2,11 +2,11 @@ import { defineConfig } from 'vitepress'
 
 // https://vitepress.dev/reference/site-config
 export default defineConfig({
-  base: '/blog/',
+  base: '',
   title: 'Brocadeyu',
   description: 'Thoughts & Blogs',
   titleTemplate: 'Brocadeyu',
-  head: [['link', { rel: 'icon', href: '/blog/shark.svg' }]],
+  head: [['link', { rel: 'icon', href: '/shark.svg' }]],
   markdown:{
     theme: 'material-theme-ocean',
     lineNumbers: true,
