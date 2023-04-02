@@ -3,7 +3,7 @@
 layout: home
 
 hero:
-  name: "Brocadeyu"
+  name: "Brocadeyu1"
   text: "———————"
   tagline: tech otakus save the world
   image:
