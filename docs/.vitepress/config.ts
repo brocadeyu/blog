@@ -30,7 +30,61 @@ export default defineConfig({
       //   ],
       // },
       {
-        text: '面试题',
+        text: '三剑客',
+        items: [
+          { text: 'HTML', link: '...' },
+          { text: 'CSS', link: '...' },
+          { text: 'JavaScript', link: '...' },
+        ],
+      },  {
+        text: '框架篇',
+        items: [
+          {
+            // Title for the section.
+            text: '客户端',
+            items: [
+              { text: 'React', link: '...' },
+              { text: 'Vue', link: '...' },
+              { text: 'Angular', link: '...' },
+              { text: 'jQurey', link: '...' },
+            ],
+          },   {
+            // Title for the section.
+            text: '服务端',
+            items: [
+              { text: 'Koa,Express,egg', link: '...' },
+              { text: 'Next', link: '...' },
+              { text: 'Nuxt', link: '...' },
+              { text: 'Nest', link: '...' },
+            ],
+          },
+          {
+            // Title for the section.
+            text: 'Web2D3D',
+            items: [
+              { text: 'Leaflet', link: '...' },
+              { text: 'OpenLayer', link: '...' },
+              { text: 'Cesium', link: '...' },
+              { text: 'Three', link: '...' },
+            ],
+          },
+
+        ],
+      },{
+        text: '基础篇',
+        items: [
+          { text: 'Http', link: '...' },
+          { text: '浏览器', link: '...' },
+          { text: 'Node', link: '...' },
+          { text: '网络', link: '...' },
+        ],
+      },{
+        text: '算法篇',
+        items: [
+        ],
+      },
+      {
+        text: '知识库',
         items: [
           {
             // Title for the section.
@@ -63,13 +117,10 @@ export default defineConfig({
       {
         text: '更多',
         items: [
-          {
-            // You may also omit the title.
-            items: [
-              { text: '建设中...', link: '...' },
-              // { text: 'SB Item B', link: '...' },
-            ],
-          },
+          { text: '手写题', link: '/item-1' },
+          { text: '原理篇', link: '/item-1' },
+          // { text: 'Item A', link: '/item-1' },
+          // { text: 'Item A', link: '/item-1' },
         ],
       },
       // {
