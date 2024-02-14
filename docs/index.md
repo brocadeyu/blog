@@ -3,8 +3,8 @@
 layout: home
 
 hero:
-  name: "Brocadeyu"
-  text: "———————"
+  name: 'Brocadeyu'
+  text: '———————*'
   tagline: tech otakus save the world
   image:
     src: /avatar.png
@@ -25,4 +25,3 @@ features:
   - title: Feature C
     details: Lorem ipsum dolor sit amet, consectetur adipiscing elit
 ---
-
