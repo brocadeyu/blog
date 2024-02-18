@@ -3,25 +3,25 @@
 layout: home
 
 hero:
-  name: 'Brocadeyu'
-  text: '———————*'
-  tagline: tech otakus save the world
+  name: 'Brocadeyu の teahouse'
+  text: ''
+  tagline: 风遇山止，船到岸停
   image:
     src: /avatar.png
     alt: avatar
   actions:
     - theme: brand
-      text: Start
-      link: /test-markdown-examples
+      text: 开始
+      link: /javaScript
     - theme: alt
-      text: API Examples
-      link: /test-api-examples
+      text: Explore
+      link: /javaScript
 
 features:
-  - title: Feature A
+  - title: Fast
     details: Lorem ipsum dolor sit amet, consectetur adipiscing elit
-  - title: Feature B
+  - title: Pure
     details: Lorem ipsum dolor sit amet, consectetur adipiscing elit
-  - title: Feature C
+  - title: Promotive
     details: Lorem ipsum dolor sit amet, consectetur adipiscing elit
 ---
