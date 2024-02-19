@@ -20,32 +20,12 @@ export default defineConfig({
     lastUpdatedText: 'Updated Date',
     nav: [
       { text: '首页', link: '/', activeMatch: '' },
-      { text: '随笔', link: '/blog', activeMatch: '' },
-      {
-        text: 'JavaScript',
-        link: '/javaScript',
-        activeMatch: '/javaScript',
-      },
-      {
-        text: 'TypeScript',
-        link: '/ts',
-        activeMatch: '/ts',
-      },
-      {
-        text: 'WebGL',
-        link: '/webgl',
-        activeMatch: '/webgl',
-      },
-      {
-        text: 'WebGPU',
-        link: '/webgpu',
-        activeMatch: '/webgpu',
-      },
-      {
-        text: 'NodeJs',
-        link: '/nodejs',
-        activeMatch: '/nodejs',
-      },
+      { text: '博客', link: '/Blog', activeMatch: '' },
+      // {
+      //   text: 'NodeJs',
+      //   link: '/nodejs',
+      //   activeMatch: '/nodejs',
+      // },
       // {
       //   text: 'Dropdown Menu1',
       //   items: [
@@ -62,56 +42,65 @@ export default defineConfig({
       //     { text: 'JavaScript', link: '...' },
       //   ],
       // },
-      // {
-      //   text: '框架篇',
-      //   items: [
-      //     {
-      //       // Title for the section.
-      //       text: '客户端',
-      //       items: [
-      //         { text: 'React', link: '...' },
-      //         { text: 'Vue', link: '...' },
-      //         { text: 'Angular', link: '...' },
-      //         { text: 'jQurey', link: '...' },
-      //       ],
-      //     },
-      //     {
-      //       // Title for the section.
-      //       text: '服务端',
-      //       items: [
-      //         { text: 'Koa,Express,egg', link: '...' },
-      //         { text: 'Next', link: '...' },
-      //         { text: 'Nuxt', link: '...' },
-      //         { text: 'Nest', link: '...' },
-      //       ],
-      //     },
-      //     {
-      //       // Title for the section.
-      //       text: 'Web2D3D',
-      //       items: [
-      //         { text: 'Leaflet', link: '...' },
-      //         { text: 'OpenLayer', link: '...' },
-      //         { text: 'Cesium', link: '...' },
-      //         { text: 'Three', link: '...' },
-      //       ],
-      //     },
-      //   ],
-      // },
       {
-        text: '基础篇',
+        text: '笔记',
         items: [
-          { text: '标准库', link: '...' },
-          { text: 'Web APIs', link: '...' },
-          { text: 'Nodejs', link: '...' },
-          // { text: '网络', link: '...' },
+          {
+            // Title for the section.
+            text: 'lang',
+            items: [
+              {
+                text: 'JavaScript',
+                link: '/JavaScript',
+                activeMatch: 'JavaScript',
+              },
+              {
+                text: 'TypeScript',
+                link: '/TypeScript',
+                activeMatch: 'TypeScript',
+              },
+              { text: 'WebGL', link: '/WebGL', activeMatch: 'WebGL' },
+              { text: 'WebGPU', link: '/WebGPU', activeMatch: 'WebGPU' },
+            ],
+          },
+          {
+            // Title for the section.
+            text: '_',
+            items: [
+              { text: 'Web APIs', link: '...' },
+              { text: 'NodeJS', link: '...' },
+              { text: 'NestJS', link: '...' },
+              { text: '设计模式', link: '...' },
+              { text: '算法', link: '...' },
+            ],
+          },
+          // {
+          //   // Title for the section.
+          //   text: 'Web2D3D',
+          //   items: [
+          //     { text: 'Leaflet', link: '...' },
+          //     { text: 'OpenLayer', link: '...' },
+          //     { text: 'Cesium', link: '...' },
+          //     { text: 'Three', link: '...' },
+          //   ],
+          // },
         ],
       },
+      // {
+      //   text: '基础篇',
+      //   items: [
+      //     { text: '标准库', link: '...' },
+      //     { text: 'Web APIs', link: '...' },
+      //     { text: 'Nodejs', link: '...' },
+      //     // { text: '网络', link: '...' },
+      //   ],
+      // },
+      // {
+      //   text: '算法篇',
+      //   items: [],
+      // },
       {
-        text: '算法篇',
-        items: [],
-      },
-      {
-        text: '面试宝典',
+        text: '面试',
         items: [
           {
             // Title for the section.
@@ -161,10 +150,10 @@ export default defineConfig({
     sidebar: [
       {
         text: '导航',
-        collapsed: true, // 可折叠
+        // collapsed: false, // 可折叠
         items: [
-          { text: 'JavaScript', link: '/javaScript' },
-          { text: 'Runtime API Examples', link: '/test-api-examples' },
+          { text: 'JavaScript', link: '/JavaScript' },
+          { text: '标准库', link: '/js-1' },
         ],
       },
     ],

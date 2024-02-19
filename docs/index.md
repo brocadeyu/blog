@@ -12,10 +12,10 @@ hero:
   actions:
     - theme: brand
       text: 开始
-      link: /javaScript
+      link: /Blog
     - theme: alt
       text: Explore
-      link: /javaScript
+      link: /JavaScript
 
 features:
   - title: Fast
